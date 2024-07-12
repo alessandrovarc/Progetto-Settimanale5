@@ -136,7 +136,29 @@ h1 {
     font-weight: 800;
     font-size: 0.8em;
 }
+.number h2 {
+    opacity: 0.3;
+}
 .container-section {
     padding-inline: 15vw;
     display: flex;
+    background-color: aqua;
+}
+.left-section {
+    width: 60%;
+    background-color:blueviolet;
+    display: flex;
+    flex-direction: column;
+}
+.card-content {
+    width: 100%;
+    background-color: chartreuse;
+}
+.card-with-img {
+    width: 100%;
+    display: flex;
+}
+
+.right-section {
+    background-color: coral;
 }
